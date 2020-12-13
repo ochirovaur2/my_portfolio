@@ -1,0 +1,54 @@
+/* Animations */
+
+@keyframes animateHeaderArrow{
+	0% {
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); 
+	}
+  100% {
+    opacity: 1;
+    transform: translate(0);
+	} 
+}
+
+
+
+@keyframes bounce-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes show-up {
+    30% {
+        opacity: 0;
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+/* /Animations */

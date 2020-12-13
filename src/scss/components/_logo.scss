@@ -1,0 +1,15 @@
+.logo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 1.2;
+	&__h1{
+    	font-size: 3.1rem;
+    }
+
+    &__p{
+    	font-size: 1.7rem;
+    }
+	
+	
+}

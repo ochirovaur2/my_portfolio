@@ -1,0 +1,53 @@
+%btn-shared{
+	// padding: 1.6rem 3rem;
+	// display: inline-block;
+	// transition: background 0.2s, color 0.2s;
+	// border: none;
+	// background: $color-light-1;
+	// color: set-text-color($color-light-1);
+	font-size: 2.2rem;
+
+	&:hover{
+		cursor: pointer;
+		// background: $color-primary;
+		// color: set-text-color($color-primary);
+	}
+}
+.btn {
+	@extend  %btn-shared;
+
+	&__change-page{
+		position: absolute;
+		right: 2rem;
+		bottom: 1rem;
+		color: $color-gray;
+		font-weight: 600;
+		animation: bounce-left 2s ease infinite;
+		display: flex;
+		align-items: center;
+	}
+
+	&__back-page{
+		left: 2rem;
+		right: unset;
+	}
+
+	&__text{
+		margin: 0  1rem;
+	}
+
+	&__hidden{
+		display: none;
+		@media only screen and (max-width: $bp-medium){
+			display: flex;
+		}
+	}
+
+	&__desctop{
+		@media only screen and (max-width: $bp-medium){
+			display: none;
+		}
+	}
+
+
+}

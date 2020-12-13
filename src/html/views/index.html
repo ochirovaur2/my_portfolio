@@ -1,0 +1,296 @@
+<% var data = {
+  title: "Оценка качества"
+  }; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+
+
+<!-- Main -->
+	  
+ <main class="main">
+   <div class="container" >
+    <div class="cover cover__left" >
+      
+    </div>
+
+    <!-- BOOK -->
+
+    <div class="book">
+      <div class="book__page book__first-page u-center-text">
+          <div class="book__avt-box">
+            <div class="book__avt "></div>
+          </div>
+          
+          <h1 class="heading-primary my-normal">
+            Aiur Ochirov
+          </h1>
+          <div class="social my-normal">
+            <a class="social__link" href="https://www.youtube.com/channel/UCC8Lh0LZ53XzQjYTfUwGRkg" target="_blank">
+              <i class="fab fa-youtube social__i"></i>
+            </a>
+            <a class="social__link" href="https://www.instagram.com/aiur95_/" target="_blank">
+              <i class="fab fa-instagram social__i"></i>
+            </a>
+            <a class="social__link" href="https://github.com/ochirovaur2" target="_blank">
+              <i class="fab fa-git-square social__i"></i>
+            </a>
+            
+          </div>
+
+          <p class="heading-secondary my-normal">
+            
+            <span
+              class="txt-type-first"
+              data-wait="3000"
+              data-words='["Hello! My name is Aiur, I am "]'
+            ></span>
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Back-End", "Front-End", "Web Developer"]'
+            ></span>
+          </p>  
+
+          <div class="btn btn__change-page btn__hidden" data-page="page-1">
+            <div class="btn__text">Next </div>  <i class="fas fa-arrow-right"></i>
+          </div>      
+      </div>
+
+      <!-- Page 5 + 6 -->
+      <!-- Page 5 -->
+      <div class="book__page book__right book__right_turn turn-js " id="page-5">
+        <div class="book__front">
+          <h1 class="heading-primary">
+            COVID-19 Worldwide Dashboard
+          </h1>
+          <div class="card ">
+              
+              <p class="card__summary " > 
+                <a class='card__link' href="http://coronavirusstat-com.stackstaging.com/" target="_blank"> <i class="fas fa-link card__i"></i></a> 
+                or
+                <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"><i class="fab fa-git-square card__i"></i></a> 
+              </p>
+               
+            <div class="card__img-box"> 
+              <img src="img/items/corona.jpg" alt="Img" class="card__img">
+            </div>
+          </div>
+          <p class="paragraph  u-left-text">
+              The service takes information from several sources, including Chinese BAIDU servers, the website has interactive graphics.
+            </a>
+          </p>
+
+          <div class="btn btn__change-page" data-page="page-5">
+            <div class="btn__text">Next </div>  <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <!-- Page 6 -->
+        <div class="book__back">
+          <h1 class="heading-primary">
+            Twitter Analogue
+          </h1>
+          <div class="card ">
+              
+              <p class="card__summary " > 
+                <a class='card__link' href="http://projectofsocnet-com.stackstaging.com/" target="_blank"> <i class="fas fa-link card__i"></i></a> 
+                or
+                <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"><i class="fab fa-git-square card__i"></i></a> 
+              </p>
+               
+            <div class="card__img-box"> 
+              <img src="img/items/twitter.jpg" alt="Img" class="card__img">
+            </div>
+          </div>
+          <p class="paragraph  u-left-text">
+              Twitter Analogue with PHP and MVC.
+            </a>
+          </p>
+
+          
+          <div class="btn btn__change-page btn__back-page" data-page="page-5">
+              <i class="fas fa-arrow-left"></i> <div class="btn__text">Back </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END Page 5 + 6 -->
+
+      <!-- Page 3 + 4 -->
+      <!-- Page 3 -->
+      <div class="book__page book__right book__right_turn turn-js " id="page-3">
+        <div class="book__front">
+          <h1 class="heading-primary">
+            Net Promoter Score Website
+          </h1>
+          <div class="card ">
+              
+              <p class="card__summary " > 
+                <a class='card__link' href="https://nps.cdek.ru/" target="_blank"> <i class="fas fa-link card__i"></i></a> 
+                or
+                <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"><i class="fab fa-git-square card__i"></i></a> 
+              </p>
+               
+            <div class="card__img-box"> 
+              <img src="img/items/nps.jpg" alt="Img" class="card__img">
+            </div>
+          </div>
+          <p class="paragraph  u-left-text">
+              Measures cliens experience and provides the best metric to anchor clients experience management.
+            </a>
+          </p>
+          
+          <div class="btn btn__change-page" data-page="page-3">
+            <div class="btn__text">Next </div>  <i class="fas fa-arrow-right"></i>
+          </div>
+          
+        </div>
+
+        <!-- Page 4 -->
+        <div class="book__back">
+          <h1 class="heading-primary">
+            Web Dashboard
+          </h1>
+          <div class="card ">
+              
+              <p class="card__summary " > 
+              
+              <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"><i class="fab fa-git-square card__i"></i></a> 
+              </p>
+               
+            <div class="card__img-box"> 
+              <img src="img/items/monitoring.jpg" alt="Img" class="card__img">
+            </div>
+          </div>
+          <p class="paragraph  u-left-text">
+              Monitoring solution with Django for PostgreSQL database. 
+            </a>
+          </p>
+          
+          
+          <div class="btn btn__change-page btn__back-page" data-page="page-3">
+              <i class="fas fa-arrow-left"></i> <div class="btn__text">Back </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END Page 3 + 4 -->
+
+
+      
+      <!-- Page 1 + 2 -->
+
+      <div class="book__page book__right book__right_turn turn-js " id="page-1">
+        <div class="book__front">
+          <h1 class="heading-primary">
+            Stack of technologies
+          </h1>
+          <div class="technologies">
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-python"></i></i></div>
+              <h4>Python </h4>
+            </div>
+            <div class="technologies__item">
+              <div><img class='technologies__img' src="img/logos/django-logo.png" alt=""></div>
+              <h4>Django</h4>
+            </div>
+            <div class="technologies__item">
+              <div><img class='technologies__img' src="img/logos/postgresql.png" alt=""></div>
+              <h4>PostgreSQL</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-html5"></i></div>
+              <h4>HTML 5</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-css3"></i></div>
+              <h4>CSS 3</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-js"></i></div>
+              <h4>JS</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-php"></i></div>
+              <h4>PHP</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-github"></i></div>
+              <h4>GIT</h4>
+            </div>
+            <div class="technologies__item">
+              <div><img class='technologies__img' src="img/logos/jquery.png" alt=""></div>
+              <h4>JQUERY</h4>
+            </div>
+            <div class="technologies__item">
+              <div><img class='technologies__img' src="img/logos/mysql.png" alt=""></div>
+              <h4>MySQL</h4>
+            </div>
+            <div class="technologies__item">
+              <div><i class="fab technologies__i fa-sass "></i></div>
+              <h4>SASS</h4>
+            </div>
+            <div class="technologies__item">
+              <div><img class='technologies__img' src="img/logos/webpack2.png" class="webpack" alt=""></div>
+              <h4>WEBPACK</h4>
+            </div>
+            
+          </div>
+          <div class="btn btn__change-page btn__back-page btn__hidden" data-page="page-1">
+              <i class="fas fa-arrow-left"></i> <div class="btn__text">Back </div>
+          </div>
+          <div class="btn btn__change-page btn__desctop" data-page="page-1">
+            <div class="btn__text">View projects </div>  <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="btn btn__change-page btn__hidden" data-page="page-2">
+            <div class="btn__text">View projects </div>  <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="book__back" >
+          <h1 class="heading-primary">
+            E-commerce Website
+          </h1>
+          <div class="card ">
+              
+              <p class="card__summary " > 
+              <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"> <i class="fas fa-link card__i"></i></a> 
+              or
+              <a class='card__link' href="https://vkusnayalavka.ru/" target="_blank"><i class="fab fa-git-square card__i"></i></a> 
+              </p>
+               
+            <div class="card__img-box"> 
+              <img src="img/items/shop.jpg" alt="Img" class="card__img">
+            </div>
+          </div>
+          <p class="paragraph  u-left-text">
+              Online shop in the field of healthy products. In this project, I was responsible for the frontend part. Main challenge was unique loyalty system 
+            </a>
+          </p>
+          
+          
+          <div class="btn btn__change-page btn__back-page" data-page="page-1">
+              <i class="fas fa-arrow-left"></i> <div class="btn__text">Back </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- END Page 1 + 2 -->
+    </div>
+    
+
+    <!-- END BOOK -->
+
+
+    <div class="cover cover-js" >
+      
+    </div>
+
+    
+  </div>
+ </main>
+	
+	
+
+
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
